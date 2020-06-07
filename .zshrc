@@ -114,4 +114,4 @@ function reload() {
 
 # You can use this for your dotfiles config
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
+alias vdiff='code --diff'
