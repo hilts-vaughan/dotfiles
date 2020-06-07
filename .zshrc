@@ -107,6 +107,17 @@ function docker-enter() {
   docker exec -it "$@" /bin/bash;
 }
 
+function reload() {
+  source ~/.zshrc
+  source ~/.bashrc
+  echo "Profile has been reloaded."
+}
+
+# Custom Git stuff
+function gm() {
+  git commit -m "$1"
+}
+
 # You can use this for your dotfiles config
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
