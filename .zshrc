@@ -115,6 +115,8 @@ function reload() {
 # You can use this for your dotfiles config
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vdiff='code --diff'
+alias o='xdg-open'
+alias e="$EDITOR"
 
 # Gaming stuff for servers and stuff
 function terraria() {
