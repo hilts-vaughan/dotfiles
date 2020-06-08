@@ -1,0 +1,9 @@
+[user]
+	email = hilts.vaughan@gmail.com
+	name = Vaughan Hilts
+[credential]
+	helper = cache --timeout=43200
+[core]
+	editor = code --wait
+[http]
+	postBuffer = 1048576000
