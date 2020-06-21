@@ -58,9 +58,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Custom scripts should go here
 export PATH=$HOME/scripts/:$PATH
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -110,6 +107,10 @@ function reload() {
   source ~/.zshrc
   source ~/.bashrc
   echo "Profile has been reloaded."
+}
+
+function eprofile() {
+  eval "$EDITOR ~/.zshrc"
 }
 
 # You can use this for your dotfiles config
