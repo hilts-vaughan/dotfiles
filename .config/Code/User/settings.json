@@ -6,5 +6,5 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "tabnine.experimentalAutoImports": 1
+  "tabnine.experimentalAutoImports": true
 }
