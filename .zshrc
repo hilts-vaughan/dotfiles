@@ -61,6 +61,8 @@ export PATH=$HOME/scripts/:$PATH
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+#  You want to ensure you can use the editor that is most probable to be appropriate
+#  in your given environment.
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
